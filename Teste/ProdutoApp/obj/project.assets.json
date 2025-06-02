@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Desktop\\Aperam\\Pt1\\ProdutoApp\\ProdutoApp.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\Desktop\\Aperam\\Teste\\ProdutoApp\\ProdutoApp.csproj",
       "projectName": "ProdutoApp",
-      "projectPath": "C:\\Users\\pc\\Desktop\\Aperam\\Pt1\\ProdutoApp\\ProdutoApp.csproj",
+      "projectPath": "C:\\Users\\pc\\Desktop\\Aperam\\Teste\\ProdutoApp\\ProdutoApp.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\Desktop\\Aperam\\Pt1\\ProdutoApp\\obj\\",
+      "outputPath": "C:\\Users\\pc\\Desktop\\Aperam\\Teste\\ProdutoApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
