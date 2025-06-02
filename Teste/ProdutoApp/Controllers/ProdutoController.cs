@@ -9,19 +9,23 @@ using ProdutoApp.Services;
 using ProdutoApp.ViewModels;
 using ProdutoApp.Utils;
 
+
 namespace ProdutoApp.Controllers {
     public class ProdutoController : BaseController {
         private readonly ProdutoService _produtoService;
 
-        public ProdutoController() {
+        public ProdutoController()
+        {
             _produtoService = new ProdutoService();
         }
 
-        public IActionResult Index() {
+        public IActionResult Index()
+        {
             return View();
         }
 
-        public JsonResult Inicializar() {
+        public JsonResult Inicializar()
+        {
 
             // Simula a inicialização de dados necessários para a tela de produto
             try
@@ -58,6 +62,12 @@ namespace ProdutoApp.Controllers {
             var info = InformacoesProduto;
             return Json(new { NomeTela = info.NomeTela, CodigoModulo = info.CodigoModulo });
         }
+        //Teste para retornar informações da Lista de Produtos
+        public JsonResult Listar() {
+            var produtos = _produtoService.ListarProdutosExemplo(1, 2); // Exemplo de IDs de grupo e subgrupo
+            return Json(new { produtos });
+        }
+
     }
 
 }
