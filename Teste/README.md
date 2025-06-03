@@ -15,7 +15,7 @@ Este projeto faz parte do desenvolvimento para a Aperam, focado na primeira etap
 
 2. Navegue até a pasta do projeto:
     ```bash
-    cd Aperam/Pt1/ProdutoApp
+    cd Aperam/Teste/ProdutoApp
     ```
 3. Então faça:
     ```bash
