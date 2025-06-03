@@ -1,0 +1,34 @@
+/*  
+    Respostas da Parte do Teste Lógico de programação
+*/
+
+3.1 - Analise o trecho de código abaixo. Qual será o valor impresso no console? 
+Justifique sua resposta com base no conceito de atribuição de variáveis. 
+
+int x = 10; 
+int y = x; 
+x = 5; 
+Console.WriteLine(y); 
+
+     ● R.:O valor que será impresso no console será 10. Na linguágem utilizada o valor de x é copiado para y, após isso elas passam a ser independentes, contudo o valor de x é alterado porém não afeta o valor de y que já foi definido.
+
+
+
+3.2 -  Explique com suas palavras: 
+    ● Qual é a diferença entre uma classe pública (public) e uma classe privada (private)? 
+    R.: A diferença entre a class public e private, é que a public ela pode ser acessada em outros arquivos e em até outros projetos externos case seja referenciado, já a private só pode existir dentro de uma outra classe, não podendo ser top-level, e só podem ser utilizadas dentro da própria classe.
+
+    ● Quando é indicado utilizar cada tipo de visibilidade? 
+    R.: O tipo de visibilidade public é recomendado quando você deseja expor a classe para uso em qualquer parte do projeto, já a private é desejado quando você não quer ou não é preciso que uma variável, implementação seja disponibilizada para outras classes, e impedir que o restante do código tenha acesso ao mesmo.
+
+3.3 - Para que serve o bloco try/catch em C#? 
+     ● Assim como em outras linguagens o try/catch em C#, como o próprio nome diz, ele serve para que quando for feito a tentativa de um processo, caso dê erro ele vai para o cacth, onde você poderá lidar com a exeção, como são chamados os erros, de uma forma apropriada para certo tipo de exeção. Ajudando a evitar que o programa trave ou feche sem nenhum motivo.
+
+     ● Quais boas práticas devem ser adotadas ao lidar com exceções no código? 
+         ● Para que o código do programa esteja melhor formato, compreensível, o uso do try/cacth deve seguir algumas boas práticas como por exemplo, evitar colocar todo o código dentro dele, deixar apenas somente a parte onde pode haver alguma exceção, nunca deixar o bloco catch em branco, pois assim fica mais difícil compreender os erros e saber como solucioná-los.
+
+3.4 - O que significa o modificador override em C#? 
+    ● Em C# o modificado override significa que um método, propriedade ou evento herdado de uma classe base, que foi declarado como virtual ou abstract irá ser sobrescrito.
+    
+     ● Diferencie os usos de virtual, override e new em herança de classes. 
+      ● O uso do virtual é feito quando permitimo que uma classe base pode ser buscrita, o override é utilizado para poder fazer subscrição de um método, propriedade ou evento herdado de uma classe base, que foi declarada como virtual ou abstract, este que deve ser subscrito, e o new cria uma nova implementação com o mesmo nome, escondendo o método da classe base.
